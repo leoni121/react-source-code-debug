@@ -4,9 +4,19 @@
 *可clone本仓库到本地直接运行，快速获取源码调试环境，或者 [点击查看](https://github.com/neroneroffy/react-source-code-debug/tree/master/docs/setUpDebugEnv.md) 调试环境搭建教程*
 
 ## 安装依赖
-npm install
+
+```shell
+$ npm install
+```
 
 ## 启动React不同版本的调试环境：
+
+启动之前执行如下命令
+
+```shell
+$ nvm use v16.20.2
+```
+
 * 启动18，该版本代码获取自2022年6月2日下午3点14分React官方仓库的main分支
 ```
  npm run dev:18
