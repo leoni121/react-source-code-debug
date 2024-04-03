@@ -249,7 +249,10 @@ import {
 import {processTransitionCallbacks} from './ReactFiberTracingMarkerComponent.new';
 
 const ceil = Math.ceil;
-
+/**
+ * mark📌 by nzq 🐶
+ * @description: 
+ */
 const {
   ReactCurrentDispatcher,
   ReactCurrentOwner,

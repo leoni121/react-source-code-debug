@@ -31,7 +31,10 @@ import {clz32} from './clz32';
 // If those values are changed that package should be rebuilt and redeployed.
 
 export const TotalLanes = 31;
-
+/**
+ * mark📌 by nzq 🐶
+ * @description: 
+ */
 export const NoLanes: Lanes = /*                        */ 0b0000000000000000000000000000000;
 export const NoLane: Lane = /*                          */ 0b0000000000000000000000000000000;
 

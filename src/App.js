@@ -10,6 +10,7 @@ import PropsDiff from './components/PropsDiff'
 import Hooks from "./components/Hooks";
 import EventDemo from "./components/EventDemo";
 import ContextDemo from "./components/Context";
+import HelloWorld from "./components/HelloWorld";
 import './App.css';
 
 // propsDiff
@@ -19,6 +20,9 @@ import './App.css';
   }
 }*/
 function App() {
+
+  // HelloWorld
+  return <HelloWorld/>
 
   // 事件系统
   // return <EventDemo/>
@@ -36,7 +40,7 @@ function App() {
   // return <SchedulerTask/>
 
   // 高优先级插队
-  return <TasksWithDifferentPriorities/>
+  // return <TasksWithDifferentPriorities/>
 
   // context
   // return <ContextDemo/>

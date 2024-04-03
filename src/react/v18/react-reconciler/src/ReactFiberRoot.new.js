@@ -49,6 +49,10 @@ export type RootState = {
   transitions: Set<Transition> | null,
 };
 
+/**
+ * mark📌 by nzq 🐶
+ * @description: 
+ */
 function FiberRootNode(
   containerInfo,
   tag,

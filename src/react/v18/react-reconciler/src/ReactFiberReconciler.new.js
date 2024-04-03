@@ -317,6 +317,10 @@ export function createHydrationContainer(
   return root;
 }
 
+/**
+ * mark📌 by nzq 🐶
+ * @description: 
+ */
 export function updateContainer(
   element: ReactNodeList,
   container: OpaqueRoot,

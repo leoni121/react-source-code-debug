@@ -6,6 +6,7 @@ import App from './App';
 const root = document.getElementById('root')
 
 // Concurrent mode
+debugger
 ReactDOM.createRoot(root).render(<App />);
 
 // blocking mode

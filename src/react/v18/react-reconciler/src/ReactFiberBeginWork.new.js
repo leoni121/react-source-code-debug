@@ -1604,6 +1604,10 @@ function mountIncompleteClassComponent(
   );
 }
 
+/**
+ * mark📌 by nzq 🐶
+ * @description: 
+ */
 function mountIndeterminateComponent(
   _current,
   workInProgress,
@@ -3648,7 +3652,10 @@ function attemptEarlyBailoutIfNoScheduledUpdate(
   }
   return bailoutOnAlreadyFinishedWork(current, workInProgress, renderLanes);
 }
-
+/**
+ * mark📌 by nzq 🐶
+ * @description: 
+ */
 function beginWork(
   current: Fiber | null,
   workInProgress: Fiber,
